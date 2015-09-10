@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{05c57124-1e09-4eb4-bf00-b6ef08731dc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{af2cf765-8195-431d-aa91-83d43a4c8f5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{1f2ee7e8-f391-4e82-a898-5f945e9ffe3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Init">
+      <UniqueIdentifier>{cd0670c4-87f0-4fdc-8141-7b647faddc6d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Shader_Loader.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameModels.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader_Manager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Init_GLEW.cpp">
+      <Filter>Core\Init</Filter>
+    </ClCompile>
+    <ClCompile Include="Init_GLUT.cpp">
+      <Filter>Core\Init</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Manager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Shaders\Fragment_Shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Vertex_Shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\Shader_Loader.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexFormat.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameModels.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader_Manager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowInfo.h">
+      <Filter>Core\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="ContextInfo.h">
+      <Filter>Core\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBufferInfo.h">
+      <Filter>Core\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="Init_GLEW.h">
+      <Filter>Core\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="Init_GLUT.h">
+      <Filter>Core\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="iListener.h">
+      <Filter>Core\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Manager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OpenGL1.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

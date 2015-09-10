@@ -1,0 +1,88 @@
+﻿Build started 8/31/2015 11:48:44 PM.
+     1>Project "C:\Users\Steve\Documents\GitHubVisualStudio\OpenGLTesting\ConsoleApplication5\ConsoleApplication4\ConsoleApplication4.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\Steve\Documents\GitHubVisualStudio\OpenGLTesting\ConsoleApplication5\packages\glm.0.9.7.0\build\native\../..//build/native/include/ /IC:\Users\Steve\Documents\GitHubVisualStudio\OpenGLTesting\ConsoleApplication5\packages\nupengl.core.0.0.0.1\build\native\../..//build/native/include/ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Core\Shader_Loader.cpp main.cpp GameModels.cpp Shader_Manager.cpp Init_GLEW.cpp Init_GLUT.cpp
+         Init_GLUT.cpp
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(5): error C2653: 'Core': is not a class or namespace name
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(5): error C2143: syntax error: missing ';' before '*'
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(5): error C2653: 'Init_GLUT': is not a class or namespace name
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(5): error C2065: 'NULL': undeclared identifier
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(6): error C2653: 'Core': is not a class or namespace name
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(6): error C2653: 'Init_GLUT': is not a class or namespace name
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(6): error C2146: syntax error: missing ';' before identifier 'windowInformation'
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(8): error C2653: 'Init_GLUT': is not a class or namespace name
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(8): error C2653: 'Core': is not a class or namespace name
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(8): error C2143: syntax error: missing ',' before '&'
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(13): error C2065: 'windowInformation': undeclared identifier
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(13): error C2065: 'windowInfo': undeclared identifier
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(17): error C2653: 'Init_GLUT': is not a class or namespace name
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(22): error C2227: left of '->notifyBeginFrame' must point to class/struct/union/generic type
+         c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(22): note: type is 'int *'
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(23): error C2227: left of '->notifyDisplayFrame' must point to class/struct/union/generic type
+         c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(23): note: type is 'int *'
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(25): error C3861: 'glutSwapBuffers': identifier not found
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(27): error C2227: left of '->notifyEndFrame' must point to class/struct/union/generic type
+         c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(27): note: type is 'int *'
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(31): error C2653: 'Init_GLUT': is not a class or namespace name
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(33): error C2065: 'windowInformation': undeclared identifier
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(33): error C2228: left of '.isReshapable' must have class/struct/union
+         c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(33): note: type is 'unknown-type'
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(37): error C2227: left of '->notifyReshape' must point to class/struct/union/generic type
+         c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(37): note: type is 'int *'
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(39): error C2065: 'windowInformation': undeclared identifier
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(39): error C2228: left of '.width' must have class/struct/union
+         c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(39): note: type is 'unknown-type'
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(40): error C2065: 'windowInformation': undeclared identifier
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(40): error C2228: left of '.height' must have class/struct/union
+         c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(40): note: type is 'unknown-type'
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(42): error C2065: 'windowInformation': undeclared identifier
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(42): error C2228: left of '.width' must have class/struct/union
+         c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(42): note: type is 'unknown-type'
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(43): error C2065: 'windowInformation': undeclared identifier
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(43): error C2228: left of '.height' must have class/struct/union
+         c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(43): note: type is 'unknown-type'
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(48): error C2653: 'Init_GLUT': is not a class or namespace name
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(48): error C2653: 'Core': is not a class or namespace name
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(48): error C2065: 'iListener': undeclared identifier
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(48): error C2182: 'setListener': illegal use of type 'void'
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(49): error C2448: 'setListener': function-style initializer appears to be a function definition
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.h(39): error C2059: syntax error: 'private'
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.h(40): error C2039: 'IListener': is not a member of 'Core'
+         c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.h(9): note: see declaration of 'Core'
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.h(40): error C2143: syntax error: missing ';' before '*'
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.h(40): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.h(40): error C2370: 'IListener': redefinition; different storage class
+         c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(5): note: see declaration of 'IListener'
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.h(40): error C2086: 'int *listener': redefinition
+         c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(5): note: see declaration of 'listener'
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.h(43): error C2059: syntax error: 'public'
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.h(44): error C2039: 'IListener': is not a member of 'Core'
+         c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.h(9): note: see declaration of 'Core'
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.h(44): error C2065: 'iListener': undeclared identifier
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.h(44): error C2182: 'setListener': illegal use of type 'void'
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.h(44): error C2370: 'setListener': redefinition; different storage class
+         c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.cpp(48): note: see declaration of 'setListener'
+         Init_GLEW.cpp
+         Shader_Manager.cpp
+         GameModels.cpp
+         main.cpp
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.h(39): error C2059: syntax error: 'private'
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.h(40): error C2039: 'IListener': is not a member of 'Core'
+         c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.h(9): note: see declaration of 'Core'
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.h(40): error C2143: syntax error: missing ';' before '*'
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.h(40): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.h(43): error C2059: syntax error: 'public'
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.h(44): error C2039: 'IListener': is not a member of 'Core'
+         c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.h(9): note: see declaration of 'Core'
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.h(44): error C2065: 'iListener': undeclared identifier
+     1>c:\users\steve\documents\githubvisualstudio\opengltesting\consoleapplication5\consoleapplication4\init_glut.h(44): error C2182: 'setListener': illegal use of type 'void'
+         Shader_Loader.cpp
+         Generating Code...
+     1>Done Building Project "C:\Users\Steve\Documents\GitHubVisualStudio\OpenGLTesting\ConsoleApplication5\ConsoleApplication4\ConsoleApplication4.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:08.60
